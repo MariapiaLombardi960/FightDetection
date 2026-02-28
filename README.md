@@ -51,14 +51,14 @@ To successfully execute the **V-JEPA2 fine-tuning** phase, a virtual environment
     
 - **Performance:**
   
-  **APA (main metric, rare events):** 0.964 
-  **AUC:** 0.984
-  **AUCA:** 0.947 
-  **AP:** 0.884  
-  **Precision:** 0.869  
-  **Recall:** 0.752  
-  **F1-score:** 0.806  
-  **Inference latency:** 1.28 s per 64-frame clip (real-time feasible)
+   - **APA:** 0.964 
+   - **AUC:** 0.984
+   - **AUCA:** 0.947 
+   - **AP:** 0.884  
+   - **Precision:** 0.869  
+   - **Recall:** 0.752  
+   - **F1-score:** 0.806  
+   - **Inference latency:** 1.28 s per 64-frame clip (real-time feasible)
 
 
 ## How to Run the Project
