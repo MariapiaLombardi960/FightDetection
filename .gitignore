@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ======================
+# Machine Learning / CV
+# ======================
+
+data/
+datasets/
+
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+runs/
+wandb/
+mlruns/
+
+.cache/
