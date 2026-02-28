@@ -49,17 +49,16 @@ To successfully execute the **V-JEPA2 fine-tuning** phase, a virtual environment
   - **Inference latency** measured to assess real-time feasibility.
     
 - **Performance:**
-- | Metric | Value | Description |
-|--------|-------|-------------|
-| APA    | 96%   | Abnormal Average Precision for rare and highly imbalanced events |
-| AUC    | 0.95  | Area under the ROC curve for detection |
-| AUCA   | 0.94  | Abnormal Area under the ROC curve for temporal localization |
-| AP     | 0.93  | Average precision |
-| Precision | 0.92 | Precision for classifier performance |
-| Recall    | 0.91 | Recall for classifier performance |
-| F1-score  | 0.915 | F1-score for classifier performance |
-| Inference latency | 1.28 s per 64-frame clip | Measured on test hardware for real-time feasibility |
-
+  | Metric             | Value                | Description                                      |
+|------------------- |-------------------- |-------------------------------------------------|
+| APA                | 96%                  | Abnormal Average Precision for rare and highly imbalanced events |
+| AUC                | 0.95                 | Area under the ROC curve for detection         |
+| AUCA               | 0.94                 | Anbormal Area under the ROC curve for temporal localization |
+| AP                 | 0.93                 | Average precision                               |
+| Precision          | 0.92                 | Classifier precision                             |
+| Recall             | 0.91                 | Classifier recall                                |
+| F1-score           | 0.915                | Classifier F1-score                              |
+| Inference latency  | 1.28 s per 64-frame clip | Measured on test hardware for real-time feasibility |
 
 ## How to Run the Project
 ### 1. Clips Creation and Fine-tuning of V-JEPA2
